@@ -11,7 +11,7 @@ git config --global user.email email@domena.cz
 Pro naklonování repozitáře
 
 zadejte následující příkaz do příkazového řádku
-git clone https://github.com/PetrGallus/Python.git
+git clone https://github.com/PetrGallus/Blockchain.git
 
 Pokud nastane chyba Fatal: repository not found
 
