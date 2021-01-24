@@ -1,8 +1,9 @@
 from Block import Block
 
 blockchain = []
+mempool = []
 
-genesis_block = Block ("Univerzita Obrany", ["1. ceta je na pozici",
+genesis_block = Block ("Univerzita Obrany", ["3. ceta je na pozici",
                                              "Pripravte se k provedeni lecky.",
                                              "Rozumim, provedu"])
 
@@ -14,11 +15,14 @@ third_block = Block(second_block.block_hash, ["Rozkaz velitele 3. roty cislo 127
                                               "Seznam osob s bezpecnostni proverkou stupne Tajne:...",
                                               "Velitelem 7. ukoloveho uskupeni rotace Bravo..."])
 
-print("Block hash: Genesis Block")
-print(genesis_block.block_hash)
+print("/Genesis Block\\")
+print("Block hash: ",genesis_block.block_hash)
 
-print("Block hash: Second Block")
-print(second_block.block_hash)
+print("\n/Second Block\\")
+print("Block hash: ",second_block.block_hash)
 
-print("Block hask: Third Block")
-print(third_block.block_hash)
+print("\n/Third Block\\")
+print("Block hash: ",third_block.block_hash)
+
+#nefunguje
+print(Block)
