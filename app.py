@@ -9,7 +9,8 @@ from flask_login import LoginManager,UserMixin,login_user,login_required,logout_
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'Suprcuprtajemstvi!'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///E:\\Blockchain\\database.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:\\Users\\pegin\\OneDrive\\Plocha\\GITRepositare\\Blockchain\\database.db'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///E:\\Blockchain\\database.db'
 Bootstrap(app)
 db = SQLAlchemy(app)
 login_manager = LoginManager()
