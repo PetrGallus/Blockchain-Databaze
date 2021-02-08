@@ -1,5 +1,6 @@
 # Blockchain
-Praktická část STČ + Diplomky
+Praktická část STČ 2021
+
 
 První spuštění git
 
